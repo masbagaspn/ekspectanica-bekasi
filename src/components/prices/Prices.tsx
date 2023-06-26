@@ -14,7 +14,7 @@ const Prices = () => {
     },
   ];
   return (
-    <section className="w-full my-10 flex flex-col gap-12 items-center">
+    <section className="w-full my-10 flex flex-col gap-12 items-center z-10">
       <h2 className="uppercase font-bold text-5xl drop-shadow-lg">Tickets</h2>
       <div className="flex flex-col gap-4 lg:flex-row lg:gap-8">
         {tickets.map((ticket) => (

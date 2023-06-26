@@ -35,7 +35,7 @@ const Logos = () => {
   ];
 
   return (
-    <section className="w-full flex flex-col items-center justify-center px-8 gap-12">
+    <section className="w-full flex flex-col items-center justify-center px-8 gap-12 z-10">
       <h2 className="uppercase font-bold text-5xl drop-shadow-lg">Lineup</h2>
       <div className="w-[288px] sm:w-[min(320px,100%)] bg-white/50 rounded-xl py-8 flex flex-col items-center gap-6">
         {logos.map((logo) => (

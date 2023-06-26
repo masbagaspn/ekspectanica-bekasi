@@ -1,6 +1,6 @@
 const Info = () => {
   return (
-    <section className="w-full flex flex-col items-center gap-2 my-10">
+    <section className="w-full flex flex-col items-center gap-2 my-10 z-10">
       <img
         src="/assets/section-info.png"
         alt="info"
