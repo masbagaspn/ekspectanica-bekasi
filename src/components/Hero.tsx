@@ -25,15 +25,18 @@ const Hero: React.FC<HeroProps> = ({ onLoad }) => {
         )}
       >
         Selaras
-        <span className="text-2xl stroke-2 stroke-black inline-flex gap-2">
-          Melodi<span className="text-4xl">&</span>
+        <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl stroke-2 stroke-black inline-flex gap-2">
+          Melodi
+          <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+            &
+          </span>
           <span className="self-end">Harmoni</span>
         </span>
       </h1>
       <img
         src="/assets/section-lineup.png"
         alt="lineup"
-        className="w-full h-auto z-10 -translate-y-20 pointer-events-none"
+        className="w-full h-auto z-10 -translate-y-20 sm:-translate-y-24 md:-translate-y-28 lg:-translate-y-32 pointer-events-none"
         onLoad={onLoad}
       />
     </section>
