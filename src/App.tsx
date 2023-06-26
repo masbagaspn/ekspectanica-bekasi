@@ -42,7 +42,7 @@ function App() {
         <TAC />
         <Footer />
         <div className="w-full h-full absolute top-0 left-0 bg-[url('/assets/background-pattern.png')] bg-repeat bg-top-left pointer-events-none z-[1]" />
-        <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-[#c42c13] from-0% via-[#e4bf92] via-50% to-[#c42c13] to-100% pointer-events-none opacity-100 z-0"></div>
+        <div className="w-full h-full absolute top-0 left-0 bg-gradient-to-b from-[#c42c13] from-5% via-[#e4bf92] via-50% to-[#c42c13] to-100% pointer-events-none opacity-100 z-0"></div>
         <div className="w-full h-screen absolute top-0 left-0 bg-gradient-to-b from-black/70 to-transparent z-0 pointer-events-none"></div>
         <div className="w-full h-[200vh] absolute bottom-0 left-0 bg-gradient-to-t from-black/90 to-transparent z-0 pointer-events-none"></div>
       </div>
