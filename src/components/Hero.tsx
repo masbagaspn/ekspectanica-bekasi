@@ -7,7 +7,7 @@ interface HeroProps {
 const Hero: React.FC<HeroProps> = ({ onLoad }) => {
   return (
     <section className="w-full min-h-screen flex flex-col gap-12 items-center justify-center">
-      <header className="w-fit h-[5vh] lg:h-[10vh] flex items-center gap-4 z-[1]">
+      <header className="w-fit h-[5vh] lg:h-[10vh] flex items-center gap-4 z-[2]">
         <span className="uppercase font-medium font-daysone items-center text-[6px] sm:text-[8px] md:text-[10px] italic">
           POWERED BY
         </span>

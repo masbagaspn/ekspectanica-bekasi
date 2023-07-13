@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Venue from "./components/Venue";
 import Info from "./components/Info";
 import TAC from "./components/TAC";
+import Stage from "./components/Stage";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
         />
         <Info />
         <Logos />
+        <Stage />
         <Prices />
         <Venue />
         <TAC />
