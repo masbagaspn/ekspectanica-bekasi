@@ -1,26 +1,26 @@
-import Button from "./buttons/Button";
+import Link from "./links/Link";
 
 const Cities = () => {
   const cities = [
     {
       name: "surabaya",
-      href: "",
+      href: "https://healingdejavasurabaya.bossevent.id",
     },
     {
       name: "semarang",
-      href: "",
+      href: "https://healingdejavasemarang.bossevent.id",
     },
     {
       name: "jogjakarta",
-      href: "",
+      href: "https://healingdejavajogjakarta.bossevent.id",
     },
     {
       name: "bekasi",
-      href: "",
+      href: "https://healingdejavabekasi.bossevent.id",
     },
     {
       name: "bandung",
-      href: "",
+      href: "https://healingdejavabandung.bossevent.id",
     },
   ];
 
@@ -29,9 +29,9 @@ const Cities = () => {
       <h3 className="text-2xl font-bold tracking-tight">Kota Lainnya</h3>
       <div className="w-4/5 flex flex-wrap items-center justify-center gap-3 sm:gap-5 md:gap-8">
         {cities.map((city) => (
-          <Button key={city.name} handleClick={() => {}}>
+          <Link key={city.name} href={city.href}>
             {city.name}
-          </Button>
+          </Link>
         ))}
       </div>
     </div>

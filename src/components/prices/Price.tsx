@@ -50,9 +50,11 @@ const Price: React.FC<PriceProps> = ({ name, price, variant }) => {
             <span className="text-xs mt-1 sm:text-sm sm:mt-2">IDR</span>
             {price}
           </p>
-          <button
+          <a
+            href="https://yesplis.com/event/ekspectanica-2023-healing-de-java-bekasi"
+            target="_blank"
             className={clsx(
-              "w-full bg-black text-white rounded-full py-1.5 font-bold uppercase sm:text-lg lg:text-xl transition",
+              "w-full bg-black text-white text-center rounded-full py-1.5 font-bold uppercase sm:text-lg lg:text-xl transition",
               {
                 "bg-turqoise border border-turqoise hover:text-turqoise hover:bg-white":
                   variant === "turqoise",
@@ -64,7 +66,7 @@ const Price: React.FC<PriceProps> = ({ name, price, variant }) => {
             )}
           >
             Buy Ticket
-          </button>
+          </a>
         </div>
       </div>
     </div>

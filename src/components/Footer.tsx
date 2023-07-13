@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="w-full py-8 px-[10vw] flex flex-col items-center gap-10 text-xs z-[1]">
+    <footer className="w-full py-8 px-[10vw] flex flex-col items-center gap-10 text-xs z-[2]">
       <img
         src="https://i.postimg.cc/mDCsyP2D/LOGO-EKSPEC-PUTIH-1.png"
         alt="logo"

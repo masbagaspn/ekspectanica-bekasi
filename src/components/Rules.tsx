@@ -1,7 +1,6 @@
 import { useCallback, useState } from "react";
 import { AnimatePresence } from "framer-motion";
 import RulesModal from "./modals/RulesModal";
-import Button from "./buttons/Button";
 
 const Rules = () => {
   const [isRulesModalOpen, setIsRulesModalOpen] = useState(false);
@@ -37,7 +36,12 @@ const Rules = () => {
   return (
     <div className="w-full flex flex-col items-center gap-8">
       <h2 className="text-2xl font-bold tracking-tight">DO's & DON'Ts</h2>
-      <Button handleClick={() => setIsRulesModalOpen(true)}>Click here</Button>
+      <button
+        onClick={() => setIsRulesModalOpen(true)}
+        className="w-[min(240px,100%)] text-sm font-bold border-2 border-white py-2 uppercase rounded-full hover:bg-white hover:text-black transition"
+      >
+        Click here
+      </button>
       <AnimatePresence>
         {isRulesModalOpen && (
           <RulesModal
