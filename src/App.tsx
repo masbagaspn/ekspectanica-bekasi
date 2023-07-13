@@ -17,7 +17,7 @@ function App() {
   return (
     <main
       className={clsx(
-        "max-w-screen w-full min-h-screen text-white font-monstserrat gap-10 py-6 relative",
+        "max-w-screen w-full min-h-screen text-white font-monstserrat gap-10 py-6 relative"
       )}
     >
       <div
@@ -44,16 +44,12 @@ function App() {
         <TAC />
         <Footer />
         <div className="fixed top-0 left-0 w-screen h-screen z-[1] opacity-10">
-          <img src="/assets/pattern-bekasi-01.png" className="w-full h-full object-cover object-left" />
-        </div>
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-20% from-[#c42c13] via-50% via-[#e4bc92] to-100% to-[#c42c13] z-0"/>
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-black/70 via-50% via-transparent to-black/70 z-[1]"/>
-        {/* <div className="fixed top-0 left-0 z-0 w-screen h-screen">
           <img
-            src="/assets/background-bekasi.png"
-            className="w-full h-full object-cover object-center"
+            src="/assets/pattern-bekasi.png"
+            className="w-full h-full object-cover object-bottom"
           />
-        </div> */}
+        </div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-10% from-[#c42c13] via-30% via-[#e4bc92] to-100% to-[#c42c13] z-0" />
       </div>
     </main>
   );
